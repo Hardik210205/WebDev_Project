@@ -1,0 +1,95 @@
+/* styles.css */
+
+/* Form Container Styles */
+.form-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    background-color: #131324;
+  }
+  
+  /* App Name Section Styles */
+  .appname {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* App Name Heading Styles */
+  .appname h1 {
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  /* Form Styling */
+  .form-container form {
+    display: flex;
+    flex-direction: column;  /* Fixed from 'flex' to 'row' */
+    gap: 2rem;
+    background-color: #00000076;
+    border-radius: 2rem;
+    padding: 3rem 5rem;
+  }
+  
+  /* Input Styles */
+  .form-container form input {
+    background-color: transparent;
+    padding: 1rem;
+    border: 0.1rem solid rgb(187, 14, 255);
+    border-radius: 0.4rem;
+    color: white;
+    width: 100%;
+    font-size: 1rem;
+  }
+  
+  /* Focused Input Styles */
+/* Hover effect for input fields */
+.form-container form input:hover {
+    border: 0.1rem solid #997af0; /* Apply border color on hover */
+    background-color: rgba(151, 122, 240, 0.1); /* Optional: add a light background */
+  }
+  
+  /* Focus effect for input fields */
+  .form-container form input:focus {
+    border: 0.1rem solid #ffffff; /* Apply border color on focus */
+    outline: none; /* Remove the default outline */
+  }
+  /* Button Styles (Optional) */
+  .form-container form button {
+    background-color: rgb(187, 14, 255);
+    color:white;
+    padding : 1rem 2rem;
+    border : none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    text-transform: uppercase;
+    transition: 0.5sec ease-in-out;
+  }
+  
+  /* Button Hover Styles (Optional) */
+  .form-container form button:hover {
+    background-color: #fffbfb;
+  
+    color:rgb(10, 10, 10);
+    padding : 1rem 2rem;
+    border : none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  span{
+    color: white;
+    text-transform: uppercase;
+
+  }
+  span a{
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
